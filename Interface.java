@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 class Interface{
 	public static void main(String[]args){
-		Scanner sc = new Scanner(System.in);
-        Candidatos c[];
-         
+	Scanner sc = new Scanner(System.in);
+        
+	Candidatos c[];
         String estetica;
-		String escolha;
-		int voto_minimo=0;
-		int soma_voto=0;
-		int mais_votado=0;
-		String mais_votado_nome="";
-		String sobrenome[];
+	String escolha;
+	int voto_minimo=0;
+	int soma_voto=0;
+	int mais_votado=0;
+	String mais_votado_nome="";
+	String sobrenome[];
 
         System.out.println("quantos candidatos terá na eleição?");
         c = new Candidatos[sc.nextInt()];
